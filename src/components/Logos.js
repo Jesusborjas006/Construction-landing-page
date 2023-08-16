@@ -8,15 +8,18 @@ const Logos = () => {
   const logos = [logo1, logo2, logo3, logo4, logo5];
 
   return (
-    <div className=" bg-gray-100 rounded-full flex items-center justify-evenly py-10 px-2">
-      {logos.map((logo) => (
-        <img
-          className="max-w-[65px] sm:max-w-[75px] md:max-w-[110px]"
-          src={logo}
-          alt="logo"
-        />
-      ))}
-    </div>
+    <section className="max-w-[1600px] mx-auto p-8 sm:p-10">
+      <div className=" bg-gray-100 rounded-full flex items-center justify-evenly py-8 px-2">
+        {logos.map((logo, index) => (
+          <img
+            key={index}
+            className="max-w-[55px] sm:max-w-[75px] md:max-w-[110px]"
+            src={logo}
+            alt="logo"
+          />
+        ))}
+      </div>
+    </section>
   );
 };
 
