@@ -1,4 +1,5 @@
 import Navbar from "../src/components/Navbar";
+import Blogs from "./components/Blogs";
 import Logos from "./components/Logos";
 import Message from "./components/Message";
 
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Logos />
       <Message />
+      <Blogs />
     </main>
   );
 }

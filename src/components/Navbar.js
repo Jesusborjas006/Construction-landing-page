@@ -4,7 +4,7 @@ import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 const Navbar = () => {
   const [menuIcon, setMenuIcon] = useState(false);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const [mobileNav, setMobileNav] = useState(true);
+  const [mobileNav, setMobileNav] = useState(false);
 
   const detectWidth = () => {
     setWindowWidth(window.innerWidth);
