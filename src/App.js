@@ -2,6 +2,7 @@ import Navbar from "../src/components/Navbar";
 import Blogs from "./components/Blogs";
 import Logos from "./components/Logos";
 import Message from "./components/Message";
+import Subscribe from "./components/Subscribe";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Logos />
       <Message />
       <Blogs />
+      <Subscribe />
     </main>
   );
 }
