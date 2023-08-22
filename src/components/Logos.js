@@ -8,7 +8,7 @@ const Logos = () => {
   const logos = [logo1, logo2, logo3, logo4, logo5];
 
   return (
-    <section className="max-w-[1600px] mx-auto p-8 sm:p-10">
+    <section className="max-w-[1600px] mx-auto p-8 sm:p-10 mb-5">
       <div className=" bg-gray-100 rounded-full flex items-center justify-evenly py-8 px-2">
         {logos.map((logo, index) => (
           <img

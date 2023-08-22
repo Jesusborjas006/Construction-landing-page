@@ -5,12 +5,14 @@ import Footer from "./components/Footer";
 import Logos from "./components/Logos";
 import Message from "./components/Message";
 import Subscribe from "./components/Subscribe";
+import Why from "./components/Why";
 
 function App() {
   return (
     <main className="">
       <Navbar />
       <Logos />
+      <Why />
       <Engineers />
       <Message />
       <Blogs />

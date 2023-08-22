@@ -1,6 +1,6 @@
 const Message = () => {
   return (
-    <section className="w-screen xl:max-w-[1600px] xl:mx-auto xl:p-8">
+    <section className="w-screen xl:max-w-[1600px] xl:mx-auto xl:p-8 mb-10">
       <div className="relative">
         <div className="absolute text-white">
           <h2 className="text-2xl text-center my-7 sm:mt-12 md:mt-28 lg:mt-[14%] md:text-3xl lg:text-5xl">

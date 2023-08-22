@@ -4,7 +4,7 @@ import avatar3 from "../construction-images/avatar3.png";
 
 const Engineers = () => {
   return (
-    <section className="max-w-[1600px] mx-auto p-8 sm:p-10 text-center">
+    <section className="max-w-[1600px] mx-auto p-8 sm:p-10 text-center mb-10">
       <h2 className="text-3xl mb-4 md:text-4xl font-semibold">
         Our Best Engineers
       </h2>
