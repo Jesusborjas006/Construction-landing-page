@@ -1,5 +1,6 @@
 import Navbar from "../src/components/Navbar";
 import Blogs from "./components/Blogs";
+import Contact from "./components/Contact";
 import Engineers from "./components/Engineers";
 import Footer from "./components/Footer";
 import Logos from "./components/Logos";
@@ -15,6 +16,7 @@ function App() {
       <Why />
       <Engineers />
       <Message />
+      <Contact />
       <Blogs />
       <Subscribe />
       <Footer />
